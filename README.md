@@ -1,6 +1,6 @@
 # cntbot-web
 
-cntbot 的 猜动漫功能网站。
+[cntbot](https://github.com/YouXam/cntbot) 的 猜动漫功能网站。
 
 ## 配置
 
