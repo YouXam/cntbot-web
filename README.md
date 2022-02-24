@@ -39,3 +39,10 @@ export default {
     region: "ap-area" // 腾讯云存储桶地区
 }
 ```
+
+## 运行
+
+```sh
+yarn build # 编译前端
+yarn start # 运行后端
+```
