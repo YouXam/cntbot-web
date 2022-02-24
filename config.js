@@ -1,11 +1,3 @@
-# cntbot-web
-
-cntbot 的 猜动漫功能网站。
-
-## 配置
-
-```javascript
-// config.js 后端配置
 module.exports = {
     port: 80, // 网站端口
     captchaLiveTime: 60 * 1000 * 5, // 验证码有效时间
@@ -28,14 +20,3 @@ module.exports = {
         domain: 'https://cdn.example.com/' // cdn 域名
     }
 }
-```
-
-```typescript
-// web/src/config.ts 前端配置
-export default {
-    apiurl: "http://网站域名/api", // 后端接口地址
-    wsurl: "ws://网站域名/ws/web", // 后端 ws 地址
-    bucket: "name-appid", // 腾讯云存储桶名
-    region: "ap-area" // 腾讯云存储桶地区
-}
-```
